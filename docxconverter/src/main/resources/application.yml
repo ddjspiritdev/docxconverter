@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+  datasource:
+    name: document_DB
+    username: postgres
+    password: admin
+    url: jdbc:postgresql://localhost:5432/document_DB
+    driver-class-name: org.postgresql.Driver
+    sql-script-encoding: UTF-8
+
+storage:
+  path: mydata/
