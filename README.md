@@ -3,8 +3,9 @@
 The project's goal is to create a Restfull Webservice to convert docx file to pdf.
 
 It is a spring boot (V 2.2.6) project developed with kotlin  and IntelliJ as IDE. It was 
-necessary  to use external libraries such  as apache.poi for document convertion  and apache.common.io
-to extract documents's metadatas.
+necessary  to use external libraries: 
+ - apache.poi for document convertion  
+ - apache.common.io to extract document's metadatas.
 
 The Api can be called from localhost at the port 8080 and provides 5 endpoints whose can be tested with postman:
 
