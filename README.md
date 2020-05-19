@@ -10,7 +10,7 @@ One of the easier way to do it is to run a Docker command
 ### init
 
 ```docker
-run --name some-postgres -p5432:5432 -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=document_DB -d postgres
+docker run --name some-postgres -p5432:5432 -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=document_DB -d postgres
 ```
 
 # License
